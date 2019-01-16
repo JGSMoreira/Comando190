@@ -1,0 +1,65 @@
+/* INFORMAÇÃO*/
+.info{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+/* BASE DOS BANNERS LATERIAS */
+.parceiros{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: dimgray;
+  height: 30px;
+  padding-top: 4px;
+  margin-bottom: 5px;
+}
+#banners-lateral-esq{
+  flex: 0 0 158px;
+  padding: 0;
+  text-align: left;
+}
+#banners-lateral-dir{
+  flex: 0 0 158px;
+  padding: 0;
+  text-align: right;
+}
+
+/* CONFIGURAÇÃO DOS BANNERS */
+.banner-cab{ /* CABEÇALHO */
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 5px;
+  width: 728px;
+  height: 100px;
+}
+.banner-cen-topo-esq{ /* BANNER TOPO - ESQUERDO */
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  width: 530px;
+  height: 140px;
+}
+.banner-cen-topo-dir{ /* BANNER TOPO - DIREITO */
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  width: 530px;
+  height: 140px;
+}
+.banner-cen-meio{ /* BANNER CENTRO */
+  background-color: whitesmoke;
+  width: 784px;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.banner-lateral{ /* BANNER LATERAL */
+  height: 300px;;
+  width: 158px;
+  margin-bottom: 5px;
+  background-color: whitesmoke
+}
