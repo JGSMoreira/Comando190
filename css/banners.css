@@ -7,14 +7,6 @@
 }
 
 /* BASE DOS BANNERS LATERIAS */
-.parceiros{
-  color: white;
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: dimgray;
-  height: 30px;
-  padding-top: 4px;
-  margin-bottom: 5px;
-}
 #banners-lateral-esq{
   flex: 0 0 158px;
   padding: 0;

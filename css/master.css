@@ -33,6 +33,7 @@ body{
 }
 
 /* ELEMENTOS BÁSICOS */
+/* TOPO */
 .topo-logo{
   text-align: center;
   margin: auto;
@@ -53,6 +54,35 @@ body{
   text-align: right;
 }
 
+/* LATERAL */
+.titulo-lateral{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: dimgray;
+  height: 30px;
+  padding-top: 4px;
+  margin-bottom: 5px;
+}
+.cidades-lateral{
+  margin-bottom: 5px;
+}
+.nome-cidade{
+  font-size: 13.5px;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: lightgray;
+}
+.nome-cidade a{
+  color: black;
+}
+.nome-cidade a:hover{
+  color: gray;
+  text-decoration: none;
+}
+
+/* CENTRO */
 .slide{
   width: 784px;
   height: 340px;
@@ -62,6 +92,59 @@ body{
 
 .materias{
   margin: 20px;
+}
+
+/* MATERIAS */
+.materia{
+  float: left;
+  width: 146px;
+  height: 240px;
+  margin-right: 3px;
+  margin-left: 7px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.materia img{
+  width: 145px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+.materia img:hover{
+  border-color: dimgrey;
+}
+.materia p{
+  color: crimson;
+  font-size: 11px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.materia a{
+  color: black;
+  font-size: 13px;
+}
+.materia a:hover{
+  color: black;
+}
+
+/* STREAM CCOMANDO 190 */
+.titulo-stream{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 50px black;
+  background-color: crimson;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 784px;
+  padding: 10px;
+}
+.stream{
   background-color: whitesmoke;
-  height: 340px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 784px;
+  height: 561px;
 }
